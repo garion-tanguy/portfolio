@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Garion Tanguy</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-font.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -22,21 +23,21 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="img/logo.png" width="130" alt="Logo du site">
+                <img src="img/pp.png" width="130" alt="Logo du site">
             </a>
             <div class="collapse navbar-collapse">
                 <ul class="w-100 navbar-nav justify-content-end align-items-center">
                     <li class="m-4 nav-item">
-                        <a class="text-white nav-link" href="index.html">Accueil</a>
+                        <a class="text-danger nav-link" href="index.html">Accueil</a>
                     </li>
                     <li class="m-4 nav-item">
-                        <a class="text-white nav-link" href="mes-projets.html">Mes projets</a>
+                        <a class="nav-link" href="mes-projets.html">Mes projets</a>
                     </li>
                     <li class="m-4 nav-item">
-                        <a class="text-white nav-link" href="a-propos.html">A propos</a>
+                        <a class="nav-link" href="a-propos.html">A propos</a>
                     </li>
                     <li class="m-4 nav-item">
-                        <a class="text-white nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -45,7 +46,7 @@
 
 </header>
 
-<main>
+<main class="col-10">
     <section id="presentation">
         <h1>Bienvenue sur mon portfolio,</h1>
 
@@ -59,7 +60,7 @@
         </p>
     </section>
 
-    <section id="monprojet">
+    <section id="monprojet" class="col-6 offset-4">
         <h1>Mes projets</h1>
 
         <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -71,10 +72,10 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/Annotation.png" alt="Los Angeles">
+                    <img src="img/mockup-lachapelle.png" width="800" alt="Los Angeles">
                 </div>
                 <div class="carousel-item">
-                    <img src="chicago.jpg" alt="Chicago">
+                    <img src="img/Annotation.png" alt="Chicago">
                 </div>
                 <div class="carousel-item">
                     <img src="img/Annotation.png" alt="New York">
