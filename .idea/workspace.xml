@@ -11,25 +11,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08b876b3-ef7c-4a56-8b62-36b8370622c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/CV_Garion_Tanguy.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Capture d’écran 2021-03-09 103610.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/artnouveau.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/asimplestory.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/dessinetontp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/estoire.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lachapelle-full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lachapelle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mockup estoire.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/moi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/rewind2020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webdoc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-propos.html" beforeDir="false" afterPath="$PROJECT_DIR$/a-propos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/amv/storyboard-onepiece.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fleche.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/lachapelle/guide-ordi-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/lachapelle/guide-ordi-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/lachapelle/guide-ordi-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/lachapelle/guide-papier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/lachapelle/lachapelle-full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/lachapelle/lachapelle-responsive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/lachapelle/lachapelle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rewind/conclu-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rewind/conclu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rewind/fond-automne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rewind/fond-ete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rewind/fond-hiver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rewind/fond-printemps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rewind/haiku.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rewind/intro-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rewind/intro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rewind/scenar-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rewind/scenar-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rewind/script-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rewind/script-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rewind/storyboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projets/AMV-onepiece/onepiece.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projets/rewind/rewind.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style-font.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-font.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Capture d’écran 2021-03-09 103610.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/lachapelle-full.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/lachapelle.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mes-projets.html" beforeDir="false" afterPath="$PROJECT_DIR$/mes-projets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projets/refonte-lachapelle/presentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/projets/refonte-lachapelle/presentation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projets/refonte-lachapelle/presentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/projets/refonte-lachapelle/lachapelle.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +56,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -79,7 +93,7 @@
       <updated>1615129764936</updated>
       <workItem from="1615129765991" duration="4761000" />
       <workItem from="1615193279755" duration="8487000" />
-      <workItem from="1615207328163" duration="53253000" />
+      <workItem from="1615207328163" duration="68528000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1615196831825</created>
@@ -116,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615253971622</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finitions des pages principales + début de la mise en page du projet de Lachapelle-Sous-Chaux">
+      <created>1615290326199</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615290326199</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,13 +161,15 @@
     <MESSAGE value="Création + Préparation des pages principales" />
     <MESSAGE value="Création du projet de La Mairie de Lachapelle-Sous-Chaux + début de la mise en place des différents éléments graphiques" />
     <MESSAGE value="Finitions de la page d'accueil" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finitions de la page d'accueil" />
+    <MESSAGE value="Finitions des pages principales + début de la mise en page du projet de Lachapelle-Sous-Chaux" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finitions des pages principales + début de la mise en page du projet de Lachapelle-Sous-Chaux" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1615253969513">
+    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1615290323207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="97" key="CommitChangelistDialog2/-1360.0.1360.728/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615253969513" />
+    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1615290323207" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1615135805915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -155,9 +178,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1615284403991" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615229649775">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615298548904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1360.0.1360.728/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615229649775" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1615298548904" />
   </component>
 </project>

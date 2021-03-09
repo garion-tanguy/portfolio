@@ -28,7 +28,7 @@ body {
     font-size: 2rem;
 }
 
-#boutonprojets, #boutoncontact {
+#boutonprojets, #boutoncontact, #boutonprojets button {
     font-weight: bold;
     font-size: 2rem;
 }
@@ -68,5 +68,9 @@ footer nav {
 }
 
 #lachapelle p {
+    font-size: 2rem;
+}
+
+#logiciels button{
     font-size: 2rem;
 }

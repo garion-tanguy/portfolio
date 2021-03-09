@@ -23,7 +23,7 @@ nav {
     margin-top: 5rem;
 }
 
-#mesprojets, #contact, #a-propos, #pagecontact {
+#mesprojets, #contact, #a-propos, #pagecontact, #lachapelle {
     margin-top: 20rem;
 }
 
@@ -35,7 +35,7 @@ nav {
     padding : 1rem;
 }
 
-#boutonprojets a, #boutoncontact a, .boutonprojets{
+#boutonprojets a, #boutoncontact a{
     text-decoration: none;
     color: white;
 }
@@ -71,15 +71,18 @@ footer {
     margin-top: 10rem;
 }
 
+#presentationguide div{
+    margin-top: 10rem;
+}
 
 
+/* Hovereffect et overlay animé */
 
-
-
-
+.hovereffect {
+    width:100%;
+}
 
 .hovereffect, .hovereffectsuivre {
-    width:100%;
     height:100%;
     float:left;
     overflow:hidden;
