@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:wght@300;400;500;700;900&display=swap');
 
-nav, h1, h2 {
+nav, h1, h2, h3 {
     font-family: 'Carter One', cursive!important;
 }
 
@@ -20,6 +20,9 @@ body {
     font-family: 'Carter One', cursive;
 }
 
+#pagecontact button, #pagecontact p {
+    font-size: 2rem;
+}
 
 #contact {
     font-size: 2rem;
@@ -31,6 +34,10 @@ body {
 }
 
 .introduction {
+    font-size: 2rem;
+}
+
+#a-propos .introduction  {
     font-size: 2rem;
 }
 
@@ -49,5 +56,17 @@ footer nav {
 }
 
 #reseaux p {
+    font-size: 2rem;
+}
+
+.card-text {
+    font-size: 1.5rem;
+}
+
+#card-container .btn {
+    font-size: 2rem;
+}
+
+#lachapelle p {
     font-size: 2rem;
 }

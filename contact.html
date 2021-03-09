@@ -5,6 +5,7 @@
     <title>Contact</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-font.css">
+    <link rel="stylesheet" href="css/lib/fonts/style.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,8 +16,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    <script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
 <body class="text-white">
 
@@ -25,21 +24,21 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="img/logo.png" width="130" alt="Logo du site">
+                <img src="img/pp.png" width="130" alt="Logo du site">
             </a>
             <div class="collapse navbar-collapse">
                 <ul class="w-100 navbar-nav justify-content-end align-items-center">
                     <li class="m-4 nav-item">
-                        <a class="text-white nav-link" href="index.html">Accueil</a>
+                        <a class="nav-link" href="index.html">Accueil</a>
                     </li>
                     <li class="m-4 nav-item">
-                        <a class="text-white nav-link" href="mes-projets.html">Mes projets</a>
+                        <a class="nav-link" href="mes-projets.html">Mes projets</a>
                     </li>
                     <li class="m-4 nav-item">
-                        <a class="text-white nav-link" href="a-propos.html">A propos</a>
+                        <a class="nav-link" href="a-propos.html">À propos</a>
                     </li>
                     <li class="m-4 nav-item">
-                        <a class="text-white nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link text-danger active" aria-current="page" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -48,81 +47,89 @@
 
 </header>
 
-<main>
-    <section>
-        <h1>Me contacter</h1>
-        <p>Bienvenue sur la page qui va vous permettre de me contacter !</p>
-        <img src="" alt="">
+<main id="pagecontact" class="col-10">
+    <section class="offset-2">
+        <h1 class="display-2 text-center text-uppercase text-danger">Me contacter</h1>
+        <p class="introduction text-center col-8 offset-2">Bienvenue sur la page qui va vous permettre de me contacter !</p>
     </section>
 
-    <section>
+    <section class="offset-3">
 
-        <form>
-            <fieldset id="name-yui_3_17_2_1_1428052499751_9451" class="form-item fields name required">
+        <div class="mt-5">
+            <h2 class="display-4">Mon mail</h2>
+            <a href="mailto:macgarion@gmail.com">
+                <button type="button" class="btn mt-5 btn-danger">M'écrire</button>
+            </a>
+        </div>
 
-                <legend class="title">
-                    Nom
+        <div class="mt-5">
+            <h2 class="display-4">Mon CV</h2>
+            <a href="doc/CV_Garion_Tanguy.pdf">
+                <button type="button" class="btn mt-5 btn-danger">Télécharger mon CV</button>
+            </a>
+        </div>
 
-                    <span class="required" aria-hidden="true">*</span>
+        <div id="pagereseaux" class="mt-5">
+            <h2 class="display-4">Mes réseaux sociaux</h2>
+            <ul class="list-unstyled d-flex mt-4">
+                <li class="mr-3"><a href="https://www.instagram.com/n0irag/"><span class="icon-instagram4"></span></a></li>
+                <li class="mr-3"><a href="https://www.linkedin.com/in/garion-tanguy-13512b197/"><span class="icon-linkedin1"></span></a></li>
+                <li class="mr-3"><a href="https://github.com/garion-tanguy"><span class="icon-github3"></span></a></li>
+                <li class="mr-3"><a href="https://discord.com/channels/@me"><span class="icon-discord"></span></a></li>
+            </ul>
+        </div>
 
-                </legend>
+        <div class="mt-5">
+            <h1 class="mt-5">Mon téléphone</h1>
+            <p>+33 (0)7 82 96 86 46 </p>
+        </div>
 
-
-                <div class="field first-name">
-                    <label class="caption">
-                        <input
-                                class="field-element field-control"
-                                name="fname"
-                                x-autocompletetype="given-name"
-                                type="text"
-                                spellcheck="false"
-                                maxlength="30"
-                                data-title="First"
-                                aria-required="true"
-                        />
-                        <span class="caption-text">Prénom</span>
-                    </label>
-                </div>
-                <div class="field last-name">
-                    <label class="caption">
-                        <input
-                                class="field-element field-control"
-                                name="lname"
-                                x-autocompletetype="surname"
-                                type="text"
-                                spellcheck="false"
-                                maxlength="30"
-                                data-title="Last"
-                                aria-required="true"
-                        />
-                        <span class="caption-text">Nom</span>
-                    </label>
-                </div>
-            </fieldset>
-            <div class="form-floating mb-3">
-                <label for="floatingnput" class="form-label">Adresse mail</label>
-                <input type="email" class="form-control" id="floatingnput" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">J'utiliserais seulement votre adresse mail afin de vous répondre.</div>
-            </div>
-            <div class="mb-3">
-                <label for="InputPassword" class="form-label">Objet</label>
-                <input type="password" class="form-control" id="InputPassword">
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button class="g-recaptcha btn btn-primary"
-                    data-sitekey="6Lek43YaAAAAAJngyLWffeTOMcoH3NsnphZoibrr"
-                    data-callback='onSubmit'
-                    data-action='submit' >Envoyer</button>
-        </form>
     </section>
 
 </main>
 
 <footer>
+    <div class="d-flex justify-content-around">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/pp.png" width="130" alt="Logo du site">
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="w-100 navbar-nav flex-column">
+                        <li class="m-4 nav-item">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="m-4 nav-item">
+                            <a class="nav-link" href="mes-projets.html">Mes projets</a>
+                        </li>
+                        <li class="m-4 nav-item">
+                            <a class="nav-link" href="a-propos.html">À propos</a>
+                        </li>
+                        <li class="m-4 nav-item">
+                            <a class="nav-link text-danger active" aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="reseaux" class="text-center">
+            <h1 class="mt-5">Mes réseaux sociaux </h1>
+            <ul class="list-unstyled d-flex justify-content-around mt-4">
+                <li><a href="https://www.instagram.com/n0irag/"><span class="icon-instagram4"></span></a></li>
+                <li><a href="https://www.linkedin.com/in/garion-tanguy-13512b197/"><span class="icon-linkedin1"></span></a></li>
+                <li><a href="https://github.com/garion-tanguy"><span class="icon-github3"></span></a></li>
+                <li><a href="https://discord.com/channels/@me"><span class="icon-discord"></span></a></li>
+            </ul>
 
+            <h1 class="mt-5">Mon téléphone</h1>
+            <p>+33 (0)7 82 96 86 46 </p>
+        </div>
+
+    </div>
+
+
+    <p id="droits" class="text-center display-4">©Tous droits réservés - Garion Tanguy - 2020</p>
 </footer>
 
 

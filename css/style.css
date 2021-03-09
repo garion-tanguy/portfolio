@@ -23,7 +23,7 @@ nav {
     margin-top: 5rem;
 }
 
-#mesprojets, #contact {
+#mesprojets, #contact, #a-propos, #pagecontact {
     margin-top: 20rem;
 }
 
@@ -35,7 +35,7 @@ nav {
     padding : 1rem;
 }
 
-#boutonprojets a, #boutoncontact a{
+#boutonprojets a, #boutoncontact a, .boutonprojets{
     text-decoration: none;
     color: white;
 }
@@ -56,7 +56,29 @@ footer {
     padding-top: 5rem;
 }
 
-.hovereffect {
+#qui-suis-je, #competences {
+    margin-top: 10rem;
+    font-size: 2rem;
+}
+
+#pagereseaux a{
+    font-size: 5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.presentation {
+    margin-top: 10rem;
+}
+
+
+
+
+
+
+
+
+.hovereffect, .hovereffectsuivre {
     width:100%;
     height:100%;
     float:left;
@@ -66,7 +88,7 @@ footer {
     cursor:default;
 }
 
-.hovereffect .overlay {
+.hovereffect .overlay, .hovereffectsuivre .overlay{
     width:100%;
     height:100%;
     position:absolute;
@@ -79,7 +101,7 @@ footer {
     transition:all .4s ease-in-out
 }
 
-.hovereffect img {
+.hovereffect img, .hovereffectsuivre img {
     display:block;
     position:relative;
     -webkit-transition:all .4s linear;
@@ -87,6 +109,21 @@ footer {
 }
 
 .hovereffect h2 {
+    text-transform:uppercase;
+    color:#fff;
+    text-align:center;
+    position:relative;
+    font-size:2.5rem;
+    background:rgba(0,0,0,0.6);
+    -webkit-transform:translatey(-100px);
+    -ms-transform:translatey(-100px);
+    transform:translatey(-150px);
+    -webkit-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+    padding:2rem;
+}
+
+.hovereffectsuivre h2 {
     text-transform:uppercase;
     color:#fff;
     text-align:center;
@@ -135,13 +172,13 @@ footer {
     box-shadow:0 0 5px #fff;
 }
 
-.hovereffect:hover img {
+.hovereffect:hover img, .hovereffectsuivre:hover img {
     -ms-transform:scale(1.2);
     -webkit-transform:scale(1.2);
     transform:scale(1.2);
 }
 
-.hovereffect:hover .overlay {
+.hovereffect:hover .overlay, .hovereffectsuivre .overlay {
     opacity:1;
     filter:alpha(opacity=100);
 }
@@ -153,6 +190,15 @@ footer {
     -webkit-transform:translatey(-10px);
     transform:translatey(-10px);
 }
+
+.hovereffectsuivre:hover h2 {
+    opacity:1;
+    filter:alpha(opacity=100);
+    -ms-transform:translatey(-10px);
+    -webkit-transform:translatey(-10px);
+    transform:translatey(80px);
+}
+
 .hovereffect:hover a{
     opacity:1;
     filter:alpha(opacity=100);

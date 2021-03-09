@@ -5,6 +5,7 @@
     <title>Mes projets</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-font.css">
+    <link rel="stylesheet" href="css/lib/fonts/style.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,7 +16,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 </head>
 <body class="text-white">
 
@@ -24,21 +24,21 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="img/logo.png" width="130" alt="Logo du site">
+                <img src="img/pp.png" width="130" alt="Logo du site">
             </a>
             <div class="collapse navbar-collapse">
                 <ul class="w-100 navbar-nav justify-content-end align-items-center">
                     <li class="m-4 nav-item">
-                        <a class="text-white nav-link" href="index.html">Accueil</a>
+                        <a class="nav-link" href="index.html">Accueil</a>
                     </li>
                     <li class="m-4 nav-item">
-                        <a class="text-white nav-link" href="mes-projets.html">Mes projets</a>
+                        <a class="nav-link text-danger active" aria-current="page" href="mes-projets.html">Mes projets</a>
                     </li>
                     <li class="m-4 nav-item">
-                        <a class="text-white nav-link" href="a-propos.html">A propos</a>
+                        <a class="nav-link" href="a-propos.html">À propos</a>
                     </li>
                     <li class="m-4 nav-item">
-                        <a class="text-white nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -47,97 +47,166 @@
 
 </header>
 
-<main>
-    <section>
-        <h1>Mes projets</h1>
-        <p>
-            Voici tous les projets que j'ai pu effectuer en MMI.
-        </p>
-    </section>
+<main id="mesprojets">
 
+        <h1 class="display-2 text-center text-uppercase text-danger">Mes projets</h1>
     <section id="card-container" class="container-fluid col-8 offset-2">
-        <div class="row g-2">
-            <div class="card col-3 offset-1" >
-                <img src="img/Annotation.png" class="card-img-top" alt="...">
-                <div class="card-body text-dark">
-                    <h2 class="card-title">Refonte de la Mairie de Lachapelle-Sous-Chaux</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="projets/refonte-lachapelle/presentation.html" class="btn btn-primary">Go somewhere</a>
+
+            <div class="row row-cols-3 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/lachapelle.png" class="card-img-top border-bottom" alt="...">
+                        <div class="card-body text-dark text-center">
+                            <h2 class="card-title">Projet de la Mairie de Lachapelle-Sous-Chaux</h2>
+                            <p class="card-text text-left"><strong class="text-danger">Projet collectif - Semestre 3 </strong> <br> Refonte du site web de la Mairie de Lachapelle-Sous-Chaux</p>
+                        </div>
+                        <a href="projets/refonte-lachapelle/presentation.html" class="btn btn-danger w-50 text-center offset-3 mb-3">Visualiser</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card col-3">
-                <img src="img/Annotation.png" class="card-img-top" alt="...">
-                <div class="card-body text-dark">
-                    <h2 class="card-title">Motion Design : AMV One Piece</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/one-piece.png" class="card-img-top border-bottom" alt="...">
+                        <div class="card-body text-dark text-center">
+                            <h2 class="card-title mt-1">Motion Design : AMV One Piece</h2>
+                            <p class="card-text text-left mb-5"><strong class="text-danger">Projet individuel d'infographie - Semestre 3</strong>  <br> Création d'une vidéo composé d'animations sur l'animé One Piece</p>
+                        </div>
+                        <a href="projets/refonte-lachapelle/presentation.html" class="btn btn-danger w-50 text-center offset-3 mb-3">Visualiser</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card col-3">
-                <img src="img/Annotation.png" class="card-img-top" alt="...">
-                <div class="card-body text-dark">
-                    <h2 class="card-title">Motion Design : Rewind de l'année 2020</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="card col-3 offset-1">
-                <img src="img/Annotation.png" class="card-img-top" alt="...">
-                <div class="card-body text-dark">
-                    <h2 class="card-title">Infographie : Dessine ton TP</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="card col-3">
-                <img src="img/Annotation.png" class="card-img-top" alt="...">
-                <div class="card-body text-dark">
-                    <h2 class="card-title">Webdocumentaire : Divinités Grecques</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="card col-3">
-                <img src="img/Annotation.png" class="card-img-top" alt="...">
-                <div class="card-body text-dark">
-                    <h2 class="card-title">Affiches : Art Nouveau</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="card col-3 offset-1">
-                <img src="img/Annotation.png" class="card-img-top" alt="...">
-                <div class="card-body text-dark">
-                    <h2 class="card-title">A Simple Story - L'affaire qui chauffe !</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="card col-3">
-                <img src="img/Annotation.png" class="card-img-top" alt="...">
-                <div class="card-body text-dark">
-                    <h2 class="card-title">BOSS : Sofia Coppola</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="card col-3 hovereffect">
-                <img src="img/Annotation.png" class="card-img" alt="...">
-                <div class="card-img overlay align-items-center">
-                    <h2 class="card-title">D'autres à venir !</h2>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/rewind2020.png" class="card-img-top border-bottom" alt="...">
+                        <div class="card-body text-dark text-center">
+                            <h2 class="card-title">Motion Design : Rewind de l'année 2020</h2>
+                            <p class="card-text text-left"><strong class="text-danger">Projet individuel de Motion Design - Semestre 4</strong>  <br> Création d'une vidéo animé qui présente mon année 2020</p>
+                        </div>
+                        <a href="projets/refonte-lachapelle/presentation.html" class="btn btn-danger w-50 text-center offset-3 mb-3">Prévisualiser</a>
+                    </div>
                 </div>
             </div>
 
-        </div>
+            <div class="row row-cols-3 mt-5 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/dessinetontp.png" class="card-img-top border-bottom" alt="...">
+                        <div class="card-body text-dark text-center">
+                            <h2 class="card-title">Infographie : Dessine ton TP</h2>
+                            <p class="card-text text-left"><strong class="text-danger">Projet individuel d'infographie - Semestre 2 </strong> <br> Création vectorielle de mon groupe de TP</p>
+                        </div>
+                        <a href="projets/refonte-lachapelle/presentation.html" class="btn btn-danger w-50 text-center offset-3 mb-3">Visualiser</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/webdoc.png" class="card-img-top border-bottom" alt="...">
+                        <div class="card-body text-dark text-center">
+                            <h2 class="card-title">Webdocumentaire : Divinités Grecques</h2>
+                            <p class="card-text text-left"><strong class="text-danger">Projet collectif - Semestre 2</strong>  <br> Création d'un webdocumentaire sur les divinités grecques et composé d'un petit quiz</p>
+                        </div>
+                        <a href="projets/refonte-lachapelle/presentation.html" class="btn btn-danger w-50 text-center offset-3 mb-3">Visualiser</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/artnouveau.jpg" class="card-img-top border-bottom" alt="...">
+                        <div class="card-body text-dark text-center">
+                            <h2 class="card-title">Affiches : Art Nouveau</h2>
+                            <p class="card-text text-left"><strong class="text-danger">Projet individuel d'expression artistique - Semestre 3</strong>  <br> Création d'affiches sur le thème général de l'art nouveau en utilisant différents mouvements</p>
+                        </div>
+                        <a href="projets/refonte-lachapelle/presentation.html" class="btn btn-danger w-50 text-center offset-3 mb-3">Visualiser</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-cols-3 mt-5 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/estoire.png" class="card-img-top border-bottom" alt="...">
+                        <div class="card-body text-dark text-center">
+                            <h2 class="card-title">Projet E-stoire</h2>
+                            <p class="card-text text-left"><strong class="text-danger">Projet collectif - Semestre 2 </strong> <br> Création d'un site web, présentant des événements historiques sous forme de timelines</p>
+                        </div>
+                        <a href="projets/refonte-lachapelle/presentation.html" class="btn btn-danger w-50 text-center offset-3 mb-3">Visualiser</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/asimplestory.png" class="card-img-top border-bottom" alt="...">
+                        <div class="card-body text-dark text-center">
+                            <h2 class="card-title">A Simple Story - L'affaire qui chauffe !</h2>
+                            <p class="card-text text-left"><strong class="text-danger">Projet collectif - Semestre 3 </strong> <br> Création d'une oeuvre transmédia qui débute par une vidéo puis, qui propose un parcours à l'utilisateur à travers d'autres médias</p>
+                        </div>
+                        <a href="projets/refonte-lachapelle/presentation.html" class="btn btn-danger w-50 text-center offset-3 mb-3">Visualiser</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/Annotation.png" class="card-img-top border-bottom" alt="...">
+                        <div class="card-body text-dark text-center">
+                            <h2 class="card-title">BOSS : Sofia Coppola</h2>
+                            <p class="card-text text-left"><strong class="text-danger">BOSS - Semestre 3 </strong> <br> Épreuve de création de site sur une durée de 2 jours</p>
+                        </div>
+                        <a href="projets/refonte-lachapelle/presentation.html" class="btn btn-danger w-50 text-center offset-3 mb-3">Visualiser</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-4 offset-4 mt-5">
+                <div class="card hovereffectsuivre">
+                    <img src="img/Annotation.png" class="card-img" alt="...">
+                    <div class="card-img overlay align-items-center">
+                        <h2 class="card-title">D'autres à venir !</h2>
+                    </div>
+                </div>
+            </div>
 
     </section>
-
 
 
 </main>
 
 <footer>
+    <div class="d-flex justify-content-around">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/pp.png" width="130" alt="Logo du site">
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="w-100 navbar-nav flex-column">
+                        <li class="m-4 nav-item">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="m-4 nav-item">
+                            <a class="nav-link text-danger active" aria-current="page" href="mes-projets.html">Mes projets</a>
+                        </li>
+                        <li class="m-4 nav-item">
+                            <a class="nav-link" href="a-propos.html">À propos</a>
+                        </li>
+                        <li class="m-4 nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
+        <div id="reseaux" class="text-center">
+            <h1 class="mt-5">Mes réseaux sociaux </h1>
+            <ul class="list-unstyled d-flex justify-content-around mt-4">
+                <li><a href="https://www.instagram.com/n0irag/"><span class="icon-instagram4"></span></a></li>
+                <li><a href="https://www.linkedin.com/in/garion-tanguy-13512b197/"><span class="icon-linkedin1"></span></a></li>
+                <li><a href="https://github.com/garion-tanguy"><span class="icon-github3"></span></a></li>
+                <li><a href="https://discord.com/channels/@me"><span class="icon-discord"></span></a></li>
+            </ul>
+
+            <h1 class="mt-5">Mon téléphone</h1>
+            <p>+33 (0)7 82 96 86 46 </p>
+        </div>
+
+    </div>
+
+
+    <p id="droits" class="text-center display-4">©Tous droits réservés - Garion Tanguy - 2020</p>
 </footer>
 
 </body>

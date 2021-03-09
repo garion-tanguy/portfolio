@@ -5,6 +5,7 @@
     <title>A propos</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-font.css">
+    <link rel="stylesheet" href="css/lib/fonts/style.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,7 +16,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 </head>
 <body class="text-white">
 
@@ -24,21 +24,21 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="img/logo.png" width="130" alt="Logo du site">
+                <img src="img/pp.png" width="130" alt="Logo du site">
             </a>
             <div class="collapse navbar-collapse">
                 <ul class="w-100 navbar-nav justify-content-end align-items-center">
                     <li class="m-4 nav-item">
-                        <a class="text-white nav-link" href="index.html">Accueil</a>
+                        <a class="nav-link" href="index.html">Accueil</a>
                     </li>
                     <li class="m-4 nav-item">
-                        <a class="text-white nav-link" href="mes-projets.html">Mes projets</a>
+                        <a class="nav-link" href="mes-projets.html">Mes projets</a>
                     </li>
                     <li class="m-4 nav-item">
-                        <a class="text-white nav-link" href="a-propos.html">A propos</a>
+                        <a class="nav-link text-danger active" aria-current="page" href="a-propos.html">À propos</a>
                     </li>
                     <li class="m-4 nav-item">
-                        <a class="text-white nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -47,87 +47,194 @@
 
 </header>
 
-<main>
+<main id="a-propos" class="col-10">
 
-    <section>
-        <h1>Bien le bonjour,</h1>
-        <h3>
-            Je m'appelle Garion Tanguy.
-        </h3>
-        <p>
-            Si vous souhaitez en apprendre plus sur moi, je vous laisse le soin de me découvrir plus bas.
-        </p>
+    <section class="offset-2">
+        <h1 class="display-2 text-center text-uppercase text-danger">À propos</h1>
+        <div class="introduction text-center col-8 offset-2">
+            <h3 class="display-4">
+                Bien le bonjour, <br>
+                Je m'appelle Garion Tanguy.
+            </h3>
+            <p>
+                Si vous souhaitez en apprendre plus sur moi, je vous laisse le soin de me découvrir plus bas.
+            </p>
+        </div>
+
     </section>
 
-    <section>
-        <h1>Qui suis-je ?</h1>
-        <p>
-            Je m'appelle Garion Tanguy, j'ai 19 ans et je suis originaire de Besançon dans le Doubs.
-            Je suis actuellement étudiant en deuxème année de DUT MMI à Montbéliard.
-            Je poursuis le rêve de devenir Game Designer dans le monde des jeux vidéo.
-        </p>
-        <p>
-            Depuis le lycée, je suis intrigué par la création de jeu vidéo. Je me demande ce que ça fait d'être de l'autre côté de l'écran.
-            C'est pourquoi j'aimerais poursuivre mon parcours dans l'univers du jeu vidéo.
-            Je souhaite faire un métier que j'aim et qui me pasionne, c'est pourquoi je vais tout faire pour y arriver.
-        </p>
-        <p>
-            Les deux années passés en MMI m'ont permis de découvrir de nombreux métiers intéressants et qui m'ont fait découvrir un petit peu plus les métiers existants.
-            A cet instant, même après avoir découvert d'autres métiers, je suis toujours fixé sur le même objectif, celui de devenir Game Designer.
-            En plus de cela, la spécialisation de Motion Design que je suis en train de faire m'a permis de découvrir encore plus le monde de l'animation et de m'y épanouir.
-            J'aime travailler en groupe, afin de pouvoir partager nos idées et de communiquer entre nous.
-            Je suis curieux et rigoureux, j'aime quand le travail que j'effectue n'a pas de petites imperfection.
-        </p>
-        <p>
-            En plus de ma passion des jeux vidéo, j'apprécie faire d'autres activités. J'aime prendre le temps de lire, de faire du dessin et de l'animation.
-            Mais par-dessus tout, j'adore particper à des jeux de rôles où je me perds avec mes amis durant plusieurs heures dans les méandres des donjons à combattre des gobelins ou des dragons.
-        </p>
-        <img src="" alt="">
+    <section id="qui-suis-je" class=" offset-3">
+        <h1 class="display-4 text-danger">Qui suis-je ?</h1>
+        <div class="d-flex">
+            <div class="mt-5 col-6">
+                <p>
+                    Je m'appelle Garion Tanguy, j'ai 19 ans et je suis originaire de Besançon dans le Doubs.
+                    Je suis actuellement étudiant en deuxème année de DUT MMI à Montbéliard.
+                    Je poursuis le rêve de devenir Game Designer dans le monde des jeux vidéo.
+                </p> <br>
+                <p>
+                    Depuis le lycée, je suis intrigué par la création de jeu vidéo. Je me demande ce que ça fait d'être de l'autre côté de l'écran.
+                    C'est pourquoi j'aimerais poursuivre mon parcours dans l'univers du jeu vidéo.
+                    Je souhaite faire un métier que j'aime et qui me pasionne, c'est pourquoi je vais tout faire pour y arriver.
+                </p> <br>
+                <p>
+                    Les deux années passés en MMI m'ont permis de découvrir de nombreux métiers intéressants et qui m'ont fait découvrir un petit peu plus les métiers existants.
+                    A cet instant, même après avoir découvert d'autres métiers, je suis toujours fixé sur le même objectif, celui de devenir Game Designer.
+                    En plus de cela, la spécialisation de Motion Design que je suis en train de faire m'a permis de découvrir encore plus le monde de l'animation et de m'y épanouir.
+                    J'aime travailler en groupe, afin de pouvoir partager nos idées et de communiquer entre nous.
+                    Je suis curieux et rigoureux, j'aime quand le travail que j'effectue n'a pas de petites imperfection.
+                </p> <br>
+                <p>
+                    En plus de ma passion des jeux vidéo, j'apprécie faire d'autres activités. J'aime prendre le temps de lire, de faire du dessin et de l'animation.
+                    Mais par-dessus tout, j'adore particper à des jeux de rôles où je me perds avec mes amis durant plusieurs heures dans les méandres des donjons à combattre des gobelins ou des dragons.
+                </p>
+            </div>
+
+            <img class="col-4 offset-1 h-100 justify-content-center" src="img/moi.png" alt="">
+        </div>
+
     </section>
 
-    <section>
-        <h1>Mes compétences</h1>
-        <h2>Graphisme et Webdesign</h2>
-        <p>
-            - Création de maquettes responsive et prototypage de celles-ci.
-            - Création d'identité visuelle : logo, illustrations, choix typographiques, harmonie colorée...
-            - Création de supports visuels print : affiche, flyer, carte de visite, dossiers...
+    <section id="competences" class="col-8 offset-3">
+        <h1 class="display-4 text-danger">Mes compétences</h1>
+        <div class="d-flex mt-5">
+            <div class="mt-5 col-6 flex-column">
+                <h2>Graphisme et Webdesign</h2>
 
-            Outils : Illustrator, Adobe XD, InDesign, Canva, Photoshop
-        </p>
-        <h2>Développement</h2>
-        <p>
-            - Création de sites web en utilisant Wordpress
-            - Intégration web HTML/CSS
-            - Utilisation de Bootstrap
-            - Initiation à l'utilisation de Php, JavaScript et VueJS
-            - Création de fichiers de datavisualisation
+                <ul>
+                    <li>
+                        Création de maquettes responsive et prototypage de celles-ci.
+                    </li>
+                    <li>
+                        Création d'identité visuelle : logo, illustrations, choix typographiques, harmonie colorée...
+                    </li>
+                    <li>
+                        Création de supports visuels print : affiche, flyer, carte de visite, dossiers...
+                    </li>
+                </ul>
+                <br>
+                <p>
+                    Outils : Illustrator, Adobe XD, InDesign, Canva, Photoshop
+                </p>
+            </div>
 
-            Outils : PhpStorm, Google Data Studio
-        </p>
-        <h2>Audiovisuel</h2>
-        <p>
-            - Montage vidéo et animations en motion design
-            - Création de scénario, de storyboard et de note d'intention
-            - Utilisation d'appareils numériques
+            <div class="mt-5 col-6 flex-column">
+                <h2>Développement</h2>
+                <ul>
+                    <li>
+                        Création de sites web en utilisant Wordpress.
+                    </li>
+                    <li>
+                        Intégration web HTML/CSS.
+                    </li>
+                    <li>
+                        Utilisation de Bootstrap.
+                    </li>
+                    <li>
+                        Initiation à l'utilisation de Php, JavaScript et VueJS.
+                    </li>
+                    <li>
+                        Création de fichiers de datavisualisation.
+                    </li>
+                </ul>
+                <br>
+                <p>
+                    Outils : PhpStorm, Google Data Studio
+                </p>
+            </div>
+        </div>
 
-            Outils : After Effects, OpenToonz, Premiere Pro, Audition
-        </p>
-        <h2>Communication</h2>
-        <p>
-            - Stratégie de communication
-            - Rédaction d'articles web
-            - Création de contenus sur les réseaux sociaux
-            - Ciblage et définition des utilisateurs potentiels
+        <div class="d-flex mt-5">
+            <div class="mt-5 col-6 flex-column">
+                <h2>Audiovisuel</h2>
+                <ul>
+                    <li>
+                        Montage vidéo et animations en motion design.
+                    </li>
+                    <li>
+                        Création de scénario, de storyboard et de note d'intention.
+                    </li>
+                    <li>
+                        Utilisation d'appareils numériques.
+                    </li>
+                </ul>
+                <br>
+                <p>
+                    Outils : After Effects, OpenToonz, Premiere Pro, Audition
+                </p>
+            </div>
 
-            Outils : Suite Office, Instagram, Facebook, Google Analytics
-        </p>
+            <div class="mt-5 col-6 flex-column">
+                <h2>Communication</h2>
+                <ul>
+                    <li>
+                        Stratégie de communication.
+                    </li>
+                    <li>
+                        Rédaction d'articles web.
+                    </li>
+                    <li>
+                        Création de contenus sur les réseaux sociaux.
+                    </li>
+                    <li>
+                        Ciblage et définition des utilisateurs potentiels.
+                    </li>
+                </ul>
+                <br>
+                <p>
+                    Outils : Suite Office, Instagram, Facebook, Google Analytics
+                </p>
+            </div>
+        </div>
+
+
     </section>
 
 </main>
 
 <footer>
+    <div class="d-flex justify-content-around">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/pp.png" width="130" alt="Logo du site">
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="w-100 navbar-nav flex-column">
+                        <li class="m-4 nav-item">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="m-4 nav-item">
+                            <a class="nav-link" href="mes-projets.html">Mes projets</a>
+                        </li>
+                        <li class="m-4 nav-item">
+                            <a class="nav-link text-danger active" aria-current="page" href="a-propos.html">À propos</a>
+                        </li>
+                        <li class="m-4 nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
+        <div id="reseaux" class="text-center">
+            <h1 class="mt-5">Mes réseaux sociaux </h1>
+            <ul class="list-unstyled d-flex justify-content-around mt-4">
+                <li><a href="https://www.instagram.com/n0irag/"><span class="icon-instagram4"></span></a></li>
+                <li><a href="https://www.linkedin.com/in/garion-tanguy-13512b197/"><span class="icon-linkedin1"></span></a></li>
+                <li><a href="https://github.com/garion-tanguy"><span class="icon-github3"></span></a></li>
+                <li><a href="https://discord.com/channels/@me"><span class="icon-discord"></span></a></li>
+            </ul>
+
+            <h1 class="mt-5">Mon téléphone</h1>
+            <p>+33 (0)7 82 96 86 46 </p>
+        </div>
+
+    </div>
+
+
+    <p id="droits" class="text-center display-4">©Tous droits réservés - Garion Tanguy - 2020</p>
 </footer>
 
 </body>
