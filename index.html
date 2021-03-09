@@ -5,6 +5,7 @@
     <title>Garion Tanguy</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-font.css">
+    <link rel="stylesheet" href="css/lib/fonts/style.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -28,13 +29,13 @@
             <div class="collapse navbar-collapse">
                 <ul class="w-100 navbar-nav justify-content-end align-items-center">
                     <li class="m-4 nav-item">
-                        <a class="text-danger nav-link" href="index.html">Accueil</a>
+                        <a class="text-danger nav-link active" aria-current="page" href="index.html">Accueil</a>
                     </li>
                     <li class="m-4 nav-item">
                         <a class="nav-link" href="mes-projets.html">Mes projets</a>
                     </li>
                     <li class="m-4 nav-item">
-                        <a class="nav-link" href="a-propos.html">A propos</a>
+                        <a class="nav-link" href="a-propos.html">À propos</a>
                     </li>
                     <li class="m-4 nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -46,65 +47,128 @@
 
 </header>
 
-<main class="col-10">
-    <section id="presentation">
-        <h1>Bienvenue sur mon portfolio,</h1>
+<main id="accueil" class="col-10">
+    <section id="presentation" class="offset-2">
+        <h1 class="display-2 text-center text-uppercase text-danger">Bienvenue sur mon portfolio</h1>
+        <div class="introduction col-8 offset-2">
+            <p>
+                Je m'appelle Garion Tanguy et je suis étudiant en seconde année du DUT de MMI à Montbéliard.
+            </p>
+            <p>
+                Je suis passionné par les jeux vidéos et le design. Et je souhaite devenir Game Designer au sein d'une entreprise de jeu vidéo.
+            </p>
+        </div>
 
-        <p>
-            Je m'appelle Garion Tanguy et je suis étudiant en seconde année du DUT de MMI à Montbéliard.
-        </p>
-        <p>
-            Je suis passionné par les jeux vidéos et le design. Et j'aime découvrir plus précisement ses sujets qui me passionnent.
-            J'ai pour projet d'avenir de devenir Game Designer au sein d'une entreprise de jeu vidéo.
-            Vous pourrez donc retrouver les différents projets scolaire que j'ai effectué plus bas ou dans l'onglet "Mes projets".
-        </p>
     </section>
 
-    <section id="monprojet" class="col-6 offset-4">
-        <h1>Mes projets</h1>
+    <section id="mesprojets" class="col-8 offset-3">
+        <h1 class="display-4 text-uppercase text-danger">Mes projets</h1>
 
-        <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div id="carouselaccueil" class="carousel slide col-10 offset-1" style="height: 610px;" data-ride="carousel">
             <ul class="carousel-indicators">
                 <li data-target="#carousel" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel" data-slide-to="1"></li>
                 <li data-target="#carousel" data-slide-to="2"></li>
+                <li data-target="#carousel" data-slide-to="3"></li>
             </ul>
 
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/mockup-lachapelle.png" width="800" alt="Los Angeles">
+            <div class="carousel-inner" style="height: 610px;">
+                <div class="carousel-item hovereffect active">
+                    <img src="img/mockup-lachapelle.png" height="610" class="card-img" alt="...">
+                    <div class="card-img overlay align-items-center">
+                        <h2 class="card-title">Mairie de Lachapelle-Sous-Chaux</h2>
+                        <a href="projets/refonte-lachapelle/presentation.html" class="btn btn-secondary text-white">Découvrir</a>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="img/Annotation.png" alt="Chicago">
+                <div id="onepiece" class="carousel-item hovereffect">
+                    <img src="img/one-piece.png" class="card-img pt-5" alt="...">
+                    <div class="card-img overlay align-items-center">
+                        <h2 class="card-title">AMV One Piece</h2>
+                        <a href="#" class="btn btn-secondary text-white">Découvrir</a>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="img/Annotation.png" alt="New York">
+                <div class="carousel-item hovereffect">
+                    <img src="img/mockup-webdoc.png" height="610" class="card-img" alt="...">
+                    <div class="card-img overlay align-items-center">
+                        <h2 class="card-title">Webdocumentaire : Divinités Grecques</h2>
+                        <a href="#" class="btn btn-secondary text-white">Découvrir</a>
+                    </div>
+                </div>
+                <div class="carousel-item hovereffect">
+                    <img src="img/mockup-estoire.png" height="610" class="card-img" alt="...">
+                    <div class="card-img overlay align-items-center">
+                        <h2 class="card-title">e-stoire</h2>
+                        <a href="#" class="btn btn-secondary text-white">Découvrir</a>
+                    </div>
                 </div>
             </div>
 
-            <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+            <a class="carousel-control-prev" href="#carouselaccueil" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
             </a>
-            <a class="carousel-control-next" href="#carousel" data-slide="next">
+            <a class="carousel-control-next" href="#carouselaccueil" data-slide="next">
                 <span class="carousel-control-next-icon"></span>
             </a>
         </div>
-
-        <a href="">Découvrir</a>
+        <button id="boutonprojets" type="button" class="btn btn-danger offset-5 mt-5"><a href="mes-projets.html">Tous les projets</a></button>
 
     </section>
 
-    <section id="contact">
-        <h1>Contactez-moi</h1>
+    <section id="contact" class="col-8 offset-3">
+        <h1 class="display-4 text-uppercase text-danger">Contactez-moi</h1>
+        <p class="offset-1">
+            Vous êtes intéressé par mon profil ou par un de mes projets ? Alors profitez-en pour me contacter !
+        </p>
+        <button id="boutoncontact" type="button" class="btn btn-danger offset-5 mt-5"><a href="contact.html">Prendre contact</a></button>
 
-        Vous êtes intéressé par mon profil ou par un de mes projets ? Alors profitez-en pour me contacter !
-        <a href="contact.html">Prendre contact</a>
     </section>
 
 </main>
 
 <footer>
 
+    <div class="d-flex justify-content-around">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/pp.png" width="130" alt="Logo du site">
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="w-100 navbar-nav flex-column">
+                        <li class="m-4 nav-item">
+                            <a class="text-danger nav-link active" aria-current="page" href="index.html">Accueil</a>
+                        </li>
+                        <li class="m-4 nav-item">
+                            <a class="nav-link" href="mes-projets.html">Mes projets</a>
+                        </li>
+                        <li class="m-4 nav-item">
+                            <a class="nav-link" href="a-propos.html">À propos</a>
+                        </li>
+                        <li class="m-4 nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="reseaux" class="text-center">
+            <h1 class="mt-5">Mes réseaux sociaux </h1>
+            <ul class="list-unstyled d-flex justify-content-around mt-4">
+                <li><a href="https://www.instagram.com/n0irag/"><span class="icon-instagram4"></span></a></li>
+                <li><a href="https://www.linkedin.com/in/garion-tanguy-13512b197/"><span class="icon-linkedin1"></span></a></li>
+                <li><a href="https://github.com/garion-tanguy"><span class="icon-github3"></span></a></li>
+                <li><a href="https://discord.com/channels/@me"><span class="icon-discord"></span></a></li>
+            </ul>
+
+            <h1 class="mt-5">Mon téléphone</h1>
+            <p>+33 (0)7 82 96 86 46 </p>
+        </div>
+
+    </div>
+
+
+    <p id="droits" class="text-center display-4">©Tous droits réservés - Garion Tanguy - 2020</p>
 </footer>
 
 </body>

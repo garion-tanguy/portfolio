@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:wght@300;400;500;700;900&display=swap');
 
-nav {
-    font-family: 'Carter One', cursive;
+nav, h1, h2 {
+    font-family: 'Carter One', cursive!important;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-link {
@@ -10,4 +14,40 @@ nav {
 
 .nav-link:hover {
     color: #bd2130;
+}
+
+#presentation h1 {
+    font-family: 'Carter One', cursive;
+}
+
+
+#contact {
+    font-size: 2rem;
+}
+
+#boutonprojets, #boutoncontact {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.introduction {
+    font-size: 2rem;
+}
+
+footer nav {
+    font-size: 2rem;
+}
+
+#droits {
+    font-size: 2rem;
+}
+
+#reseaux a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
+}
+
+#reseaux p {
+    font-size: 2rem;
 }
