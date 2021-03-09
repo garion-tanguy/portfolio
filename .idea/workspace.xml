@@ -11,9 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08b876b3-ef7c-4a56-8b62-36b8370622c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/Annotation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/a-propos.html" beforeDir="false" afterPath="$PROJECT_DIR$/a-propos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -70,7 +67,7 @@
       <updated>1615129764936</updated>
       <workItem from="1615129765991" duration="4761000" />
       <workItem from="1615193279755" duration="8487000" />
-      <workItem from="1615207328163" duration="70801000" />
+      <workItem from="1615207328163" duration="74405000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1615196831825</created>
@@ -128,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615307203838</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ajout du logo">
+      <created>1615309169108</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615309169108</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,22 +159,23 @@
     <MESSAGE value="Finitions des pages principales + début de la mise en page du projet de Lachapelle-Sous-Chaux" />
     <MESSAGE value="Finition de la mise en page du projet de la mairie de LachapelleSousChaux + Création et mise en page des projets de motion design + modifications de certaines pages" />
     <MESSAGE value="Commit final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit final" />
+    <MESSAGE value="Ajout du logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout du logo" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="231" y="97" key="CommitChangelistDialog2" timestamp="1615307202696">
+    <state x="231" y="97" key="CommitChangelistDialog2" timestamp="1615309167024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="97" key="CommitChangelistDialog2/-1360.0.1360.728/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615253969513" />
-    <state x="231" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1615307202696" />
+    <state x="231" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1615309167024" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1615135805915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-1360.0.1360.728/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615135805915" />
-    <state x="522" y="250" key="Vcs.Push.Dialog.v2" timestamp="1615307257052">
+    <state x="522" y="250" key="Vcs.Push.Dialog.v2" timestamp="1615309173789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="522" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1615307257052" />
+    <state x="522" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1615309173789" />
     <state x="561" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615309085178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
